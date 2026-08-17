@@ -3,9 +3,9 @@ import os
 
 # Sample raw data containing typos and inconsistent formatting
 raw_data = [
-    {"id": "1", "name": " kevin kanyama ", "status": "active", "tickets": "5"},
-    {"id": "2", "name": "SARAH SMITH", "status": "pending", "tickets": ""},
-    {"id": "3", "name": "john doe", "status": "INACTIVE", "tickets": "0"},
+    {"id": "1", "name": " Kevin kanyama ", "status": "Active", "tickets": "3"},
+    {"id": "2", "name": "SARAH SMITH", "status": "Pending", "tickets": ""},
+    {"id": "3", "name": "john doe", "status": "Inactive", "tickets": "0"},
 ]
 
 def clean_data(data):
